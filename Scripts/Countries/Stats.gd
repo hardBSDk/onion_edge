@@ -3,8 +3,9 @@ extends Node
 var stat = 1
 var currency = 0
 
-func _physics_process(delta):
-	pass
+#func _physics_process(delta):
+#	pass
+# /\ That isn't needed if it contains nothing, but it can have a minor performance impack
 
 func increase_stats(stat, amount):
 	stat += amount
