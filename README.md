@@ -23,26 +23,26 @@ Inspired on the following games:
 ## Features
 
 - Open source
-- Cross-platform
+- Cross-platform (WIP)
 - Lightweight
-- Mimic a reallistic world
+- Mimic a reallistic world (WIP)
 - Simple logic for everything (hidden complexity)
-- Commerce
-- Wars
-- Diplomacy
-- Local/global markets
-- World currency
-- Country blocks
-- Resource management
-- Inflation
-- Public debt
-- Taxes
-- Natural disasters
-- Game modes
-- MMO
-- Alliances (military/economical)
-- Resume/Pause simulation
-- Civil wars
+- Commerce (WIP)
+- Wars (WIP)
+- Diplomacy (WIP)
+- Local/global markets (WIP)
+- World currency (WIP)
+- Country blocks (WIP)
+- Resource management (WIP)
+- Inflation (WIP)
+- Public debt (WIP)
+- Taxes (WIP)
+- Natural disasters (WIP)
+- Game modes (WIP)
+- MMO (WIP)
+- Alliances (military/economical) (WIP)
+- Resume/Pause simulation (WIP)
+- Civil wars (WIP)
 
 ## Donation
 
