@@ -20,6 +20,8 @@ Inspired on the following games:
 
 [Dwarf Fortress](http://www.bay12games.com/dwarves/)
 
+(This is a framework too, which I will use on my other games)
+
 ## Features
 
 - Open source
