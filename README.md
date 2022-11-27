@@ -1,6 +1,6 @@
 # Onion RPG
 
-A real-time simplified political RPG that mimic the systems of real world with simplified logic.
+A real-time simplified political RPG/framework that mimic the systems of real world with simplified logic.
 
 I put my focus on simplicity with hidden complexity, even the most complex game needs to be fun, that's why I created this game.
 
