@@ -1,4 +1,7 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/211741_ios7_fastforward_fastforward_icon.svg" type="Texture" id=1]
+[ext_resource path="res://Assets/211791_pause_icon_pause_ios7.svg" type="Texture" id=2]
 
 [node name="Simulation" type="Node2D"]
 
@@ -22,3 +25,25 @@ color = Color( 0.0901961, 0.00784314, 0.0392157, 1 )
 margin_right = 64.0
 margin_bottom = 538.0
 color = Color( 0.0901961, 0.00784314, 0.0431373, 1 )
+
+[node name="Pause" type="Button" parent="UI"]
+margin_left = 926.0
+margin_top = 3.0
+margin_right = 1027.0
+margin_bottom = 51.0
+toggle_mode = true
+icon = ExtResource( 2 )
+flat = true
+icon_align = 1
+expand_icon = true
+
+[node name="FastForward" type="OptionButton" parent="UI"]
+margin_left = 818.0
+margin_top = -1.0
+margin_right = 913.0
+margin_bottom = 50.0
+icon = ExtResource( 1 )
+flat = true
+align = 1
+icon_align = 1
+expand_icon = true
