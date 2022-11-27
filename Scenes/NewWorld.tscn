@@ -61,9 +61,44 @@ margin_right = 266.0
 margin_bottom = 241.0
 text = "Disable Resume/Pause Simulation"
 
-[node name="DisablePause2" type="CheckBox" parent="."]
+[node name="DisableAIMarket" type="CheckBox" parent="."]
 margin_left = 77.0
 margin_top = 232.0
 margin_right = 324.0
 margin_bottom = 272.0
-text = "Disable Resume/Pause Simulation"
+text = "Disable AI-Market With You"
+
+[node name="DisableCWars" type="CheckBox" parent="."]
+margin_left = 77.0
+margin_top = 258.0
+margin_right = 324.0
+margin_bottom = 298.0
+text = "Disable Civil Wars"
+
+[node name="DisableWCurrency" type="CheckBox" parent="."]
+margin_left = 77.0
+margin_top = 281.0
+margin_right = 324.0
+margin_bottom = 321.0
+text = "Disable World Currency"
+
+[node name="DisableInflation" type="CheckBox" parent="."]
+margin_left = 77.0
+margin_top = 308.0
+margin_right = 324.0
+margin_bottom = 348.0
+text = "Disable Inflation"
+
+[node name="DisableDebt" type="CheckBox" parent="."]
+margin_left = 77.0
+margin_top = 332.0
+margin_right = 324.0
+margin_bottom = 372.0
+text = "Disable Public Debt"
+
+[node name="DisableAlliance" type="CheckBox" parent="."]
+margin_left = 78.0
+margin_top = 356.0
+margin_right = 325.0
+margin_bottom = 396.0
+text = "Disable Alliances"
