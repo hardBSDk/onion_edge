@@ -1,30 +1,40 @@
 [gd_scene format=2]
 
-[node name="Menu" type="Control"]
-anchor_right = 1.0
-anchor_bottom = 1.0
+[node name="Menu" type="Node2D"]
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="UI" type="Control" parent="."]
+margin_right = 1024.0
+margin_bottom = 601.0
+
+[node name="ColorRect" type="ColorRect" parent="UI"]
 margin_right = 1024.0
 margin_bottom = 600.0
 color = Color( 0.0235294, 0.00784314, 0.0980392, 1 )
 
-[node name="NewWorld" type="OptionButton" parent="."]
-margin_left = 77.0
-margin_top = 385.0
-margin_right = 226.0
-margin_bottom = 424.0
+[node name="NewWorld" type="OptionButton" parent="UI"]
+margin_left = 75.0
+margin_top = 323.0
+margin_right = 224.0
+margin_bottom = 362.0
 text = "New World"
 align = 1
 
-[node name="LoadWorld" type="Button" parent="."]
-margin_left = 79.0
-margin_top = 443.0
-margin_right = 227.0
-margin_bottom = 485.0
+[node name="Multiplayer" type="OptionButton" parent="UI"]
+margin_left = 76.0
+margin_top = 442.0
+margin_right = 225.0
+margin_bottom = 481.0
+text = "Multiplayer"
+align = 1
+
+[node name="LoadWorld" type="Button" parent="UI"]
+margin_left = 76.0
+margin_top = 381.0
+margin_right = 224.0
+margin_bottom = 423.0
 text = "Load World"
 
-[node name="Settings" type="Button" parent="."]
+[node name="Settings" type="Button" parent="UI"]
 margin_left = 78.0
 margin_top = 500.0
 margin_right = 226.0

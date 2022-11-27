@@ -1,0 +1,24 @@
+[gd_scene format=2]
+
+[node name="CreateMultiplayerMatch" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.0235294, 0.00784314, 0.0980392, 1 )
+
+[node name="Back" type="Button" parent="."]
+margin_left = 37.0
+margin_top = 526.0
+margin_right = 164.0
+margin_bottom = 566.0
+text = "Back"
+
+[node name="CreateMatch" type="Button" parent="."]
+margin_left = 191.0
+margin_top = 527.0
+margin_right = 318.0
+margin_bottom = 567.0
+text = "Create Match"
