@@ -44,6 +44,14 @@ Inspired on the following games:
 - Resume/Pause simulation (WIP)
 - Civil wars (WIP)
 
+## Contribute
+
+Bug fixes: feel free to open Pull Requests.
+Feature requests/changes: open an Issue explaining what you want and why.
+Feature proposals: open an Issue before submiting the Pull Request, to see if your change will be accepted
+
+(If some Pull Requests are waiting to merge, wait to don't mess your code/difficult the merge process)
+
 ## Donation
 
 If you want to support the game, consider a donation.
