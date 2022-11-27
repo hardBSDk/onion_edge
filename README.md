@@ -52,7 +52,7 @@ Bug fixes: feel free to open Pull Requests.
 
 Feature requests/changes: open an Issue explaining what you want and why.
 
-Feature proposals: open an Issue before submiting the Pull Request, to see if your change will be accepted
+Feature proposals: open an Issue before submiting the Pull Request, to see if your changes will be accepted
 
 (If some Pull Requests are waiting to merge, wait to don't mess your code/difficult the merge process)
 
