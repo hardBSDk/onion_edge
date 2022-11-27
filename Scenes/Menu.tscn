@@ -1,0 +1,32 @@
+[gd_scene format=2]
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.0235294, 0.00784314, 0.0980392, 1 )
+
+[node name="NewWorld" type="OptionButton" parent="."]
+margin_left = 77.0
+margin_top = 385.0
+margin_right = 226.0
+margin_bottom = 424.0
+text = "New World"
+align = 1
+
+[node name="LoadWorld" type="Button" parent="."]
+margin_left = 79.0
+margin_top = 443.0
+margin_right = 227.0
+margin_bottom = 485.0
+text = "Load World"
+
+[node name="Settings" type="Button" parent="."]
+margin_left = 78.0
+margin_top = 500.0
+margin_right = 226.0
+margin_bottom = 542.0
+text = "Settings"

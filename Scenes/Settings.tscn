@@ -1,0 +1,24 @@
+[gd_scene format=2]
+
+[node name="Settings" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.0235294, 0.00784314, 0.0980392, 1 )
+
+[node name="Fullscreen" type="CheckBox" parent="."]
+margin_left = 37.0
+margin_top = 386.0
+margin_right = 173.0
+margin_bottom = 451.0
+text = "Fullscreen"
+
+[node name="Back" type="Button" parent="."]
+margin_left = 42.0
+margin_top = 511.0
+margin_right = 160.0
+margin_bottom = 549.0
+text = "Back"

@@ -1,3 +1,22 @@
 [gd_scene format=2]
 
-[node name="Main" type="Node2D"]
+[node name="Simulation" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1026.0
+margin_bottom = 603.0
+color = Color( 0.207843, 0.0235294, 0.0823529, 1 )
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+margin_left = 1.0
+margin_top = 533.0
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.0901961, 0.00784314, 0.0392157, 1 )
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+margin_right = 64.0
+margin_bottom = 538.0
+color = Color( 0.0901961, 0.00784314, 0.0431373, 1 )

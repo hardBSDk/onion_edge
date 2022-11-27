@@ -1,0 +1,55 @@
+[gd_scene format=2]
+
+[node name="NewWorld" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.0235294, 0.00784314, 0.0980392, 1 )
+
+[node name="Back" type="Button" parent="."]
+margin_left = 45.0
+margin_top = 501.0
+margin_right = 159.0
+margin_bottom = 542.0
+text = "Back"
+
+[node name="NewWorld" type="Button" parent="."]
+margin_left = 192.0
+margin_top = 501.0
+margin_right = 306.0
+margin_bottom = 542.0
+text = "New World"
+
+[node name="SectionTitle" type="Label" parent="."]
+margin_left = 54.0
+margin_top = 47.0
+margin_right = 298.0
+margin_bottom = 94.0
+text = "Match Options"
+align = 1
+valign = 1
+
+[node name="GameMode" type="OptionButton" parent="."]
+margin_left = 74.0
+margin_top = 109.0
+margin_right = 265.0
+margin_bottom = 146.0
+text = "Game Mode"
+align = 1
+
+[node name="DisableDisasters" type="CheckBox" parent="."]
+margin_left = 76.0
+margin_top = 167.0
+margin_right = 250.0
+margin_bottom = 207.0
+text = "Disable Natural Disasters"
+
+[node name="DisablePause" type="CheckBox" parent="."]
+margin_left = 76.0
+margin_top = 201.0
+margin_right = 266.0
+margin_bottom = 241.0
+text = "Disable Resume/Pause Simulation"
