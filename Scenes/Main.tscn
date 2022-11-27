@@ -22,8 +22,9 @@ margin_bottom = 600.0
 color = Color( 0.0901961, 0.00784314, 0.0392157, 1 )
 
 [node name="ColorRect3" type="ColorRect" parent="UI"]
+margin_top = 4.0
 margin_right = 64.0
-margin_bottom = 538.0
+margin_bottom = 542.0
 color = Color( 0.0901961, 0.00784314, 0.0431373, 1 )
 
 [node name="Pause" type="Button" parent="UI"]
@@ -47,3 +48,408 @@ flat = true
 align = 1
 icon_align = 1
 expand_icon = true
+
+[node name="WorldTab" type="Button" parent="UI"]
+visible = false
+margin_left = 5.0
+margin_top = 538.0
+margin_right = 60.0
+margin_bottom = 593.0
+
+[node name="NationsList" type="ItemList" parent="UI/WorldTab"]
+margin_left = 74.0
+margin_top = -478.0
+margin_right = 528.0
+margin_bottom = -27.0
+
+[node name="NationDetails" type="Panel" parent="UI/WorldTab"]
+margin_left = 542.0
+margin_top = -479.0
+margin_right = 998.0
+margin_bottom = -29.0
+
+[node name="PlayerOverviewTab" type="Button" parent="UI"]
+margin_left = 72.0
+margin_top = 541.0
+margin_right = 131.0
+margin_bottom = 595.0
+
+[node name="PolicyTab" type="Button" parent="UI"]
+visible = false
+margin_left = 139.0
+margin_top = 541.0
+margin_right = 198.0
+margin_bottom = 595.0
+
+[node name="TaxesQuantity" type="HSlider" parent="UI/PolicyTab"]
+margin_left = 64.0
+margin_top = -295.0
+margin_right = 281.0
+margin_bottom = -261.0
+
+[node name="ArmyQuantity" type="HSlider" parent="UI/PolicyTab"]
+margin_left = 67.0
+margin_top = -245.0
+margin_right = 276.0
+margin_bottom = -211.0
+
+[node name="ArmyFoodQuantity" type="HSlider" parent="UI/PolicyTab"]
+margin_left = 66.0
+margin_top = -111.0
+margin_right = 268.0
+margin_bottom = -77.0
+
+[node name="DebtMinimum" type="HSlider" parent="UI/PolicyTab"]
+margin_left = 65.0
+margin_top = -157.0
+margin_right = 272.0
+margin_bottom = -123.0
+
+[node name="NewMoneyQuantity" type="HSlider" parent="UI/PolicyTab"]
+margin_left = 70.0
+margin_top = -204.0
+margin_right = 273.0
+margin_bottom = -170.0
+
+[node name="VehiclesQuantity" type="HSlider" parent="UI/PolicyTab"]
+margin_left = 69.0
+margin_top = -67.0
+margin_right = 266.0
+margin_bottom = -33.0
+
+[node name="KillPeopleQuantity" type="HSlider" parent="UI/PolicyTab"]
+margin_left = 557.0
+margin_top = -72.0
+margin_right = 750.0
+margin_bottom = -38.0
+
+[node name="CutFoodWaterQuantity" type="HSlider" parent="UI/PolicyTab"]
+margin_left = 556.0
+margin_top = -114.0
+margin_right = 749.0
+margin_bottom = -80.0
+
+[node name="IncreaseTaxes" type="Button" parent="UI/PolicyTab"]
+margin_left = -48.0
+margin_top = -298.0
+margin_right = 55.0
+margin_bottom = -262.0
+text = "+Taxes"
+
+[node name="IncreaseSoldiers" type="Button" parent="UI/PolicyTab"]
+margin_left = -49.0
+margin_top = -249.0
+margin_right = 54.0
+margin_bottom = -213.0
+text = "+Soldiers"
+
+[node name="IncreaseMoney" type="Button" parent="UI/PolicyTab"]
+margin_left = -50.0
+margin_top = -203.0
+margin_right = 53.0
+margin_bottom = -167.0
+text = "+Money"
+
+[node name="PayDebt" type="Button" parent="UI/PolicyTab"]
+margin_left = -54.0
+margin_top = -158.0
+margin_right = 49.0
+margin_bottom = -122.0
+text = "Pay Debt"
+
+[node name="IncreaseArmyFood" type="Button" parent="UI/PolicyTab"]
+margin_left = -54.0
+margin_top = -111.0
+margin_right = 56.0
+margin_bottom = -75.0
+text = "+Food for Army"
+
+[node name="BuyArmyVehicles" type="Button" parent="UI/PolicyTab"]
+margin_left = -55.0
+margin_top = -64.0
+margin_right = 57.0
+margin_bottom = -28.0
+text = "+Army Vehicles"
+
+[node name="KillPeople" type="Button" parent="UI/PolicyTab"]
+margin_left = 435.0
+margin_top = -71.0
+margin_right = 547.0
+margin_bottom = -35.0
+text = "Kill People"
+
+[node name="CutFoodWater" type="Button" parent="UI/PolicyTab"]
+margin_left = 433.0
+margin_top = -115.0
+margin_right = 545.0
+margin_bottom = -79.0
+text = "Cut Food/Water"
+
+[node name="AutomaticTaxes" type="CheckButton" parent="UI/PolicyTab"]
+margin_left = 291.0
+margin_top = -298.0
+margin_right = 437.0
+margin_bottom = -258.0
+text = "Automatic"
+
+[node name="AutomaticSoldiers" type="CheckButton" parent="UI/PolicyTab"]
+margin_left = 291.0
+margin_top = -251.0
+margin_right = 437.0
+margin_bottom = -211.0
+text = "Automatic"
+
+[node name="AutomaticMoney" type="CheckButton" parent="UI/PolicyTab"]
+margin_left = 284.0
+margin_top = -205.0
+margin_right = 430.0
+margin_bottom = -165.0
+text = "Automatic"
+
+[node name="AutomaticDebt" type="CheckButton" parent="UI/PolicyTab"]
+margin_left = 286.0
+margin_top = -159.0
+margin_right = 432.0
+margin_bottom = -119.0
+text = "Automatic"
+
+[node name="AutomaticArmyFood" type="CheckButton" parent="UI/PolicyTab"]
+margin_left = 287.0
+margin_top = -116.0
+margin_right = 433.0
+margin_bottom = -76.0
+text = "Automatic"
+
+[node name="AutomaticArmyVehicles" type="CheckButton" parent="UI/PolicyTab"]
+margin_left = 286.0
+margin_top = -77.0
+margin_right = 432.0
+margin_bottom = -37.0
+text = "Automatic"
+
+[node name="AutomaticKillPeople" type="CheckButton" parent="UI/PolicyTab"]
+margin_left = 748.0
+margin_top = -77.0
+margin_right = 894.0
+margin_bottom = -37.0
+text = "Automatic"
+
+[node name="AutomaticCutFoodWater" type="CheckButton" parent="UI/PolicyTab"]
+margin_left = 746.0
+margin_top = -117.0
+margin_right = 892.0
+margin_bottom = -77.0
+text = "Automatic"
+
+[node name="FarmTab" type="Button" parent="UI"]
+visible = false
+margin_left = 207.0
+margin_top = 541.0
+margin_right = 266.0
+margin_bottom = 595.0
+
+[node name="BuyLands" type="Button" parent="UI/FarmTab"]
+margin_left = -116.0
+margin_top = -233.0
+margin_right = -21.0
+margin_bottom = -196.0
+text = "Buy Lands"
+
+[node name="SellLands" type="Button" parent="UI/FarmTab"]
+margin_left = -115.0
+margin_top = -183.0
+margin_right = -16.0
+margin_bottom = -148.0
+text = "Sell Lands"
+
+[node name="DestroyLands" type="Button" parent="UI/FarmTab"]
+margin_left = -112.0
+margin_top = -135.0
+margin_right = -9.0
+margin_bottom = -98.0
+text = "Destroy Lands"
+
+[node name="BuyLandsQuantity" type="HSlider" parent="UI/FarmTab"]
+margin_left = -7.0
+margin_top = -228.0
+margin_right = 207.0
+margin_bottom = -199.0
+
+[node name="SellLandsQuantity2" type="HSlider" parent="UI/FarmTab"]
+margin_left = -4.0
+margin_top = -181.0
+margin_right = 210.0
+margin_bottom = -152.0
+
+[node name="DestroyLandsQuantity3" type="HSlider" parent="UI/FarmTab"]
+margin_left = -3.0
+margin_top = -133.0
+margin_right = 211.0
+margin_bottom = -104.0
+
+[node name="AutomaticBuyLands" type="CheckButton" parent="UI/FarmTab"]
+margin_left = 229.0
+margin_top = -231.0
+margin_right = 305.0
+margin_bottom = -191.0
+text = "Automatic"
+
+[node name="AutomaticSellLands2" type="CheckButton" parent="UI/FarmTab"]
+margin_left = 228.0
+margin_top = -190.0
+margin_right = 374.0
+margin_bottom = -150.0
+text = "Automatic"
+
+[node name="AutomaticDestroyLands2" type="CheckButton" parent="UI/FarmTab"]
+margin_left = 228.0
+margin_top = -145.0
+margin_right = 374.0
+margin_bottom = -105.0
+text = "Automatic"
+
+[node name="MiningTab" type="Button" parent="UI"]
+margin_left = 276.0
+margin_top = 542.0
+margin_right = 335.0
+margin_bottom = 596.0
+
+[node name="IncreaseGold" type="Button" parent="UI/MiningTab"]
+margin_left = -170.0
+margin_top = -73.0
+margin_right = -61.0
+margin_bottom = -36.0
+text = "Increase Gold"
+
+[node name="IncreaseSilver" type="Button" parent="UI/MiningTab"]
+margin_left = -171.0
+margin_top = -121.0
+margin_right = -62.0
+margin_bottom = -84.0
+text = "Increase Silver"
+
+[node name="IncreaseIron" type="Button" parent="UI/MiningTab"]
+margin_left = -170.0
+margin_top = -169.0
+margin_right = -61.0
+margin_bottom = -132.0
+text = "Increase Iron"
+
+[node name="IncreaseSteel" type="Button" parent="UI/MiningTab"]
+margin_left = -171.0
+margin_top = -217.0
+margin_right = -62.0
+margin_bottom = -180.0
+text = "Increase Steel"
+
+[node name="IncreaseSteelQuantity" type="HSlider" parent="UI/MiningTab"]
+margin_left = -47.0
+margin_top = -215.0
+margin_right = 151.0
+margin_bottom = -183.0
+
+[node name="IncreaseIronQuantity" type="HSlider" parent="UI/MiningTab"]
+margin_left = -50.0
+margin_top = -167.0
+margin_right = 148.0
+margin_bottom = -135.0
+
+[node name="IncreaseSilverQuantity" type="HSlider" parent="UI/MiningTab"]
+margin_left = -51.0
+margin_top = -119.0
+margin_right = 147.0
+margin_bottom = -87.0
+
+[node name="IncreaseGoldQuantity" type="HSlider" parent="UI/MiningTab"]
+margin_left = -50.0
+margin_top = -71.0
+margin_right = 148.0
+margin_bottom = -39.0
+
+[node name="AutomaticIncreaseSteel" type="CheckButton" parent="UI/MiningTab"]
+margin_left = 165.0
+margin_top = -214.0
+margin_right = 311.0
+margin_bottom = -174.0
+text = "Automatic"
+
+[node name="AutomaticIncreaseIron" type="CheckButton" parent="UI/MiningTab"]
+margin_left = 164.0
+margin_top = -173.0
+margin_right = 310.0
+margin_bottom = -133.0
+text = "Automatic"
+
+[node name="AutomaticIncreaseSilver" type="CheckButton" parent="UI/MiningTab"]
+margin_left = 165.0
+margin_top = -125.0
+margin_right = 311.0
+margin_bottom = -85.0
+text = "Automatic"
+
+[node name="AutomaticIncreaseGold" type="CheckButton" parent="UI/MiningTab"]
+margin_left = 166.0
+margin_top = -78.0
+margin_right = 312.0
+margin_bottom = -38.0
+text = "Automatic"
+
+[node name="Geopolitics" type="Button" parent="UI"]
+margin_left = 343.0
+margin_top = 541.0
+margin_right = 402.0
+margin_bottom = 595.0
+
+[node name="Army" type="Button" parent="UI"]
+margin_left = 412.0
+margin_top = 541.0
+margin_right = 471.0
+margin_bottom = 595.0
+
+[node name="Goods" type="Button" parent="UI"]
+margin_left = 481.0
+margin_top = 541.0
+margin_right = 548.0
+margin_bottom = 595.0
+
+[node name="Markets" type="Button" parent="UI"]
+margin_left = 557.0
+margin_top = 542.0
+margin_right = 616.0
+margin_bottom = 596.0
+
+[node name="Upgrades" type="Button" parent="UI"]
+margin_left = 625.0
+margin_top = 542.0
+margin_right = 684.0
+margin_bottom = 596.0
+
+[node name="Loans" type="Button" parent="UI"]
+margin_left = 690.0
+margin_top = 540.0
+margin_right = 749.0
+margin_bottom = 594.0
+
+[node name="Debt" type="Button" parent="UI"]
+margin_left = 756.0
+margin_top = 541.0
+margin_right = 815.0
+margin_bottom = 595.0
+
+[node name="Expenses" type="Button" parent="UI"]
+margin_left = 822.0
+margin_top = 541.0
+margin_right = 881.0
+margin_bottom = 595.0
+
+[node name="Alliances" type="Button" parent="UI"]
+margin_left = 887.0
+margin_top = 541.0
+margin_right = 946.0
+margin_bottom = 595.0
+
+[node name="News" type="Button" parent="UI"]
+margin_left = 956.0
+margin_top = 540.0
+margin_right = 1015.0
+margin_bottom = 594.0
