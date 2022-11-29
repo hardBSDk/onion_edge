@@ -47,58 +47,65 @@ margin_bottom = 146.0
 text = "Game Mode"
 align = 1
 
-[node name="DisableDisasters" type="CheckBox" parent="."]
+[node name="DisableDisasters" type="CheckButton" parent="."]
 margin_left = 76.0
 margin_top = 167.0
 margin_right = 250.0
 margin_bottom = 207.0
 text = "Disable Natural Disasters"
 
-[node name="DisablePause" type="CheckBox" parent="."]
+[node name="DisablePause" type="CheckButton" parent="."]
 margin_left = 76.0
 margin_top = 201.0
 margin_right = 266.0
 margin_bottom = 241.0
 text = "Disable Resume/Pause Simulation"
 
-[node name="DisableAIMarket" type="CheckBox" parent="."]
+[node name="DisableAIMarket" type="CheckButton" parent="."]
 margin_left = 77.0
 margin_top = 232.0
 margin_right = 324.0
 margin_bottom = 272.0
 text = "Disable AI-Market With You"
 
-[node name="DisableCWars" type="CheckBox" parent="."]
+[node name="DisableCWars" type="CheckButton" parent="."]
 margin_left = 77.0
 margin_top = 258.0
 margin_right = 324.0
 margin_bottom = 298.0
 text = "Disable Civil Wars"
 
-[node name="DisableWCurrency" type="CheckBox" parent="."]
+[node name="DisableWorldCurrency" type="CheckButton" parent="."]
 margin_left = 77.0
 margin_top = 281.0
 margin_right = 324.0
 margin_bottom = 321.0
 text = "Disable World Currency"
 
-[node name="DisableInflation" type="CheckBox" parent="."]
+[node name="DisableInflation" type="CheckButton" parent="."]
 margin_left = 77.0
 margin_top = 308.0
 margin_right = 324.0
 margin_bottom = 348.0
 text = "Disable Inflation"
 
-[node name="DisableDebt" type="CheckBox" parent="."]
+[node name="DisableDebt" type="CheckButton" parent="."]
 margin_left = 77.0
 margin_top = 332.0
 margin_right = 324.0
 margin_bottom = 372.0
 text = "Disable Public Debt"
 
-[node name="DisableAlliance" type="CheckBox" parent="."]
+[node name="DisableAlliances" type="CheckButton" parent="."]
 margin_left = 78.0
 margin_top = 356.0
 margin_right = 325.0
 margin_bottom = 396.0
 text = "Disable Alliances"
+
+[node name="DisableAI" type="CheckButton" parent="."]
+margin_left = 78.0
+margin_top = 381.0
+margin_right = 325.0
+margin_bottom = 421.0
+text = "Disable AI"

@@ -16,7 +16,7 @@ margin_right = 160.0
 margin_bottom = 549.0
 text = "Back"
 
-[node name="Fullscreen" type="CheckBox" parent="."]
+[node name="Fullscreen" type="CheckButton" parent="."]
 margin_left = 37.0
 margin_top = 386.0
 margin_right = 173.0

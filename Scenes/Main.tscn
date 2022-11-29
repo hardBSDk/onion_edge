@@ -608,6 +608,66 @@ margin_right = 1000.0
 margin_bottom = 260.0
 text = "Recruit Captured Soldiers"
 
+[node name="SoldiersAttack" type="Button" parent="UI/Army"]
+margin_left = 74.0
+margin_top = -196.0
+margin_right = 186.0
+margin_bottom = -156.0
+text = "Attack With Soldiers"
+
+[node name="SoldiersAttackQuantity" type="HSlider" parent="UI/Army"]
+margin_left = 226.0
+margin_top = -189.0
+margin_right = 413.0
+margin_bottom = -162.0
+
+[node name="AutomaticSoldiersAttack" type="CheckButton" parent="UI/Army"]
+margin_left = 418.0
+margin_top = -194.0
+margin_right = 564.0
+margin_bottom = -154.0
+text = "Automatic"
+
+[node name="ShipAttack" type="Button" parent="UI/Army"]
+margin_left = 72.0
+margin_top = -144.0
+margin_right = 184.0
+margin_bottom = -104.0
+text = "Attack With Ships"
+
+[node name="ShipsAttackQuantity" type="HSlider" parent="UI/Army"]
+margin_left = 206.0
+margin_top = -138.0
+margin_right = 393.0
+margin_bottom = -111.0
+
+[node name="AutomaticShipsAttack" type="CheckButton" parent="UI/Army"]
+margin_left = 405.0
+margin_top = -149.0
+margin_right = 551.0
+margin_bottom = -109.0
+text = "Automatic"
+
+[node name="PlaneAttack" type="Button" parent="UI/Army"]
+margin_left = 73.0
+margin_top = -92.0
+margin_right = 185.0
+margin_bottom = -52.0
+text = "Attack With Planes"
+
+[node name="PlanesAttackQuantity" type="HSlider" parent="UI/Army"]
+margin_left = 211.0
+margin_top = -83.0
+margin_right = 398.0
+margin_bottom = -56.0
+
+[node name="AutomaticPlanesAttack" type="CheckButton" parent="UI/Army"]
+margin_left = 411.0
+margin_top = -91.0
+margin_right = 557.0
+margin_bottom = -51.0
+text = "Automatic"
+
 [node name="WorldTab" type="Button" parent="UI"]
 visible = false
 margin_left = 5.0
