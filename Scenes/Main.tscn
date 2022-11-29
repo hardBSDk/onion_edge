@@ -272,12 +272,12 @@ margin_right = 463.0
 margin_bottom = 72.0
 text = "Unlock Oil"
 
-[node name="UnlockWeapons" type="CheckButton" parent="UI/PolicyTab"]
+[node name="UnlockGuns" type="CheckButton" parent="UI/PolicyTab"]
 margin_left = 313.0
 margin_top = 58.0
 margin_right = 500.0
 margin_bottom = 98.0
-text = "Unlock Weapons"
+text = "Unlock Guns"
 
 [node name="UnlockCarsTrucks" type="CheckButton" parent="UI/PolicyTab"]
 margin_left = 313.0
@@ -561,20 +561,20 @@ margin_right = 546.0
 margin_bottom = 211.0
 text = "Automatic"
 
-[node name="BuyWeapons" type="Button" parent="UI/Army"]
+[node name="BuyGuns" type="Button" parent="UI/Army"]
 margin_left = 75.0
 margin_top = 225.0
 margin_right = 187.0
 margin_bottom = 265.0
-text = "Buy Weapons"
+text = "Buy Guns"
 
-[node name="BuyWeaponsQuantity2" type="HSlider" parent="UI/Army"]
+[node name="BuyGunsQuantity2" type="HSlider" parent="UI/Army"]
 margin_left = 205.0
 margin_top = 230.0
 margin_right = 392.0
 margin_bottom = 257.0
 
-[node name="AutomaticBuyWeapons" type="CheckButton" parent="UI/Army"]
+[node name="AutomaticBuyGuns" type="CheckButton" parent="UI/Army"]
 margin_left = 403.0
 margin_top = 219.0
 margin_right = 549.0
