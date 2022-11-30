@@ -6,6 +6,8 @@ I put my focus on simplicity with hidden complexity, even the most complex game 
 
 I was upset of too much complexity on political RPGs that kills the fun of the game (why you need to waste 24 hours of your life to win a war? wtf).
 
+### This game/framework use the Godot Engine
+
 Inspired on the following games:
 
 [RandomNation](https://rosenburgergames.com/randomnation/)
