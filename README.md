@@ -61,6 +61,8 @@ Inspired on the following games:
 
 If you want to support the game, consider a donation.
 
+[Ko-fi](https://ko-fi.com/grey_parrot)
+
 [Patreon](https://patreon.com/grey_parrot)
 
 Bitcoin:
