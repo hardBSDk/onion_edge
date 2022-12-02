@@ -1,4 +1,6 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Objects/UI/Scene_Change_Button.gd" type="Script" id=1]
 
 [node name="Menu" type="Node2D"]
 
@@ -33,6 +35,8 @@ margin_top = 381.0
 margin_right = 224.0
 margin_bottom = 423.0
 text = "Load World"
+script = ExtResource( 1 )
+Scene_to_go_to = "res://Scenes/LoadWorld.tscn"
 
 [node name="Settings" type="Button" parent="UI"]
 margin_left = 78.0
@@ -40,3 +44,5 @@ margin_top = 500.0
 margin_right = 226.0
 margin_bottom = 542.0
 text = "Settings"
+script = ExtResource( 1 )
+Scene_to_go_to = "res://Scenes/Settings.tscn"

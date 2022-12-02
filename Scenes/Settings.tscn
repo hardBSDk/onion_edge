@@ -1,4 +1,6 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Objects/UI/Scene_Change_Button.tscn" type="PackedScene" id=2]
 
 [node name="Settings" type="Control"]
 anchor_right = 1.0
@@ -9,12 +11,13 @@ margin_right = 1024.0
 margin_bottom = 600.0
 color = Color( 0.0235294, 0.00784314, 0.0980392, 1 )
 
-[node name="Back" type="Button" parent="."]
+[node name="Back" parent="." instance=ExtResource( 2 )]
 margin_left = 42.0
 margin_top = 511.0
 margin_right = 160.0
 margin_bottom = 549.0
 text = "Back"
+Scene_to_go_to = "res://Scenes/Menu.tscn"
 
 [node name="Fullscreen" type="CheckButton" parent="."]
 margin_left = 37.0
