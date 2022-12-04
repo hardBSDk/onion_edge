@@ -48,6 +48,11 @@ Inspired on the following games:
 - Resume/Pause simulation (WIP)
 - Civil wars (WIP)
 
+## Documentation
+
+[Stats](https://github.com/hardBSDk/onion_edge/wiki/Stats)
+[Mechanics](https://github.com/hardBSDk/onion_edge/wiki/Mechanics)
+
 ## Contribute
 
 - Bug reports: feel free to open an Issue.
