@@ -61,6 +61,8 @@ Inspired on the following games:
 - Feature requests/changes: open aa new Discussion explaining what you want and why.
 - Feature proposals: open a new Discussion before submiting the Pull Request, to see if your changes will be accepted.
 
+Read this [guide](https://github.com/hardBSDk/onion_edge/wiki/Feature-Proposal) before develop/send a feature proposal.
+
 (If some Pull Requests are waiting to merge, wait to don't mess your code/difficult the merge process)
 
 ## Donation
