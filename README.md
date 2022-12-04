@@ -51,6 +51,7 @@ Inspired on the following games:
 ## Documentation
 
 [Stats](https://github.com/hardBSDk/onion_edge/wiki/Stats)
+
 [Mechanics](https://github.com/hardBSDk/onion_edge/wiki/Mechanics)
 
 ## Contribute
