@@ -475,6 +475,7 @@ margin_bottom = 324.0
 text = "Automatic"
 
 [node name="Army" type="Button" parent="UI"]
+visible = false
 margin_left = 5.0
 margin_top = 244.0
 margin_right = 64.0
