@@ -1,8 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[sub_resource type="SphereMesh" id=1]
+[ext_resource path="res://Scripts/World.gd" type="Script" id=1]
 
 [node name="World" type="Spatial"]
-
-[node name="Globe" type="MeshInstance" parent="."]
-mesh = SubResource( 1 )
+script = ExtResource( 1 )

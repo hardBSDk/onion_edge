@@ -3,7 +3,7 @@
 [ext_resource path="res://Assets/211741_ios7_fastforward_fastforward_icon.svg" type="Texture" id=1]
 [ext_resource path="res://Assets/211791_pause_icon_pause_ios7.svg" type="Texture" id=2]
 
-[node name="Simulation" type="Node2D"]
+[node name="Gameplay" type="Node2D"]
 
 [node name="UI" type="Control" parent="."]
 margin_right = 1027.0
